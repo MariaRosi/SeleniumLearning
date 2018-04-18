@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JenkinsTestSuite]">
+  <test thread-count="5" name="JenkinsTest(failed)">
+    <classes>
+      <class name="handleDynamicCalender.SelectDynamicCalender">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="selectDate"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- handleDynamicCalender.SelectDynamicCalender -->
+    </classes>
+  </test> <!-- JenkinsTest(failed) -->
+</suite> <!-- Failed suite [JenkinsTestSuite] -->
